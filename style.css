@@ -28,14 +28,10 @@
 
 img{
             max-width: 100%;
-            height: auto;
             display: block;
-
-            margin-left: auto;
-            margin-right: auto;
-
-            width: 500px;
-            height: 300px;
+            margin: 0 auto;
+            width: auto;
+            height: auto;
     
             
         }
@@ -50,8 +46,9 @@ img{
         main{
             background-color:blueviolet ;
           padding: 10px;
-            margin: auto;
-            width: 600px;
+            margin:  0 auto;
+            width: 100%;
+            max-width: 360px;
             border-radius: 10px;
             box-shadow: 20px 10px 15px #000f52;
 
